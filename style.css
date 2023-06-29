@@ -84,7 +84,7 @@ section h2:before {
   height: 380px;
   background: url("images/kurban.png");
   background-repeat: repeat-x;
-  background-size: 1200px;
+  background-size: 950px;
   z-index: 1;
   pointer-events: none;
   animation: animate 20s linear infinite;
