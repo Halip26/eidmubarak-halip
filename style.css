@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Tangerine");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Roboto:wght@500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -18,17 +20,22 @@ body {
 }
 
 h1 {
-  letter-spacing: 5px;
+  letter-spacing: 1.5px;
   text-align: center;
-  font-size: 42px;
+  font-size: 20px;
   margin-top: 25px;
+  color: #000000;
+  font-weight: bolder;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 h3 {
   font-size: 25px;
-  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-family: "Josefin Sans", sans-serif;
   text-align: center;
   color: white;
+  line-height: 1.2;
 }
 
 section {
@@ -75,7 +82,7 @@ section h2:before {
   left: 0;
   width: 100%;
   height: 380px;
-  background: url("kurban.png");
+  background: url("images/kurban.png");
   background-repeat: repeat-x;
   background-size: 1200px;
   z-index: 1;
@@ -86,22 +93,29 @@ section h2:before {
 @media only screen and (max-width: 768px) {
   .text {
     margin-bottom: 300px;
-    margin: 20px;
+    margin: 45px;
+  }
+
+  .text h2 {
+    font-size: 100px;
   }
 
   h1 {
-    font-size: 30px;
-    letter-spacing: 3px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
     text-align: center;
     margin-top: 25px;
+    font-weight: bolder;
+    font-family: "Josefin Sans", sans-serif;
   }
 
   h3 {
+    letter-spacing: 2px;
     margin-top: 15px;
-    font-size: 20px;
-    font-family: sans-serif;
+    font-size: 25px;
     text-align: center;
-    color: white;
+    line-height: 1.2;
+    font-family: "Josefin Sans", sans-serif;
   }
 
   section h2 {
@@ -125,6 +139,18 @@ section h2:before {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .text h2 {
+    font-size: 70px;
+  }
+
+  h3 {
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+    font-size: 23px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+}
 @keyframes animate {
   0% {
     background-position: 0px;
@@ -141,7 +167,7 @@ section h2:before {
   left: 0;
   width: 100%;
   height: 550px;
-  background: url("mosque.png");
+  background: url("images/mosque.png");
   background-repeat: repeat-x;
   background-size: 1600px;
   z-index: 1;
